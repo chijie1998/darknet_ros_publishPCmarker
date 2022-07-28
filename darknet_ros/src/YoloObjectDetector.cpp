@@ -62,7 +62,8 @@ bool YoloObjectDetector::readParameters() {
 
   // Set vector sizes.
   nodeHandle_.param("yolo_model/detection_classes/names", classLabels_, std::vector<std::string>(0));
-  numClasses_ = classLabels_.size();
+ # numClasses_ = classLabels_.size();
+  numClasses_ = 1
   rosBoxes_ = std::vector<std::vector<RosBox_> >(numClasses_);
   rosBoxCounter_ = std::vector<int>(numClasses_);
 
