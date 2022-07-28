@@ -3,7 +3,7 @@
 ## Overview
 Run stop.launch to turn on human detection and get the distance of the human from the depth images to publish a marker based on the bounding box into the point cloud. This will publish the nearest human to the camera and you could change the distance in scripts/multiperson_detection.py. The launch file includes the launch of Azure Kinect camera, you might change if you are using other camera.
 
-##Dependencies:
+## Dependencies:
 Azure Kinect SDK : https://github.com/microsoft/Azure-Kinect-Sensor-SDK/blob/develop/docs/usage.md
 and YOLO dependencies refer below
 
